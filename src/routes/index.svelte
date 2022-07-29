@@ -4,6 +4,7 @@
 
 <script lang="ts">
 	import Counter from '$lib/Counter.svelte';
+    import ChessView from '$lib/ChessView.svelte';
 </script>
 
 <svelte:head>
@@ -21,6 +22,8 @@
 
 		to your new<br />SvelteKit app
 	</h1>
+    
+    <ChessView/>
 
 	<h2>
 		try editing <strong>src/routes/index.svelte</strong>
